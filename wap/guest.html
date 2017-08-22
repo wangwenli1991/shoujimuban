@@ -1,8 +1,8 @@
   <!DOCTYPE HTML>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<title>在线留言</title>
+<meta http-equiv="Content-Type" content="text/html; charset="utf-8">
+<title>鍦ㄧ嚎鐣欒█</title>
 <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0,target-densitydpi=medium"/>
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -28,7 +28,7 @@
 
    <link rel="stylesheet" href="../css/wap/base.css">
   <link rel="stylesheet" href="../css/wap/spectrum.css">
-  <!-- 图标文字 -->
+  <!-- 鍥炬爣鏂囧瓧 -->
   <link rel="stylesheet" href="../css/tubiao/gwcFont.css">
   <link rel="stylesheet" href="../css/tubiao/indexFont.css">
   <link rel="stylesheet" href="../css/tubiao/qqFont.css">
@@ -93,16 +93,16 @@
 <div class="wrapper" id="wrapper">
     <div class="mainContainer">
     <div class="onMessage showProInfo">
-      <div class="tit"><strong>在线留言</strong></div>
+      <div class="tit"><strong>鍦ㄧ嚎鐣欒█</strong></div>
       <div class="con">
-        <!--提交留言表单 start-->
+        <!--鎻愪氦鐣欒█琛ㄥ崟 start-->
           <div class="MessageList">
             <div class="leftLine"></div>
-                <h3 id="guestBook"><span>点击留言</span></h3>
+                <h3 id="guestBook"><span>鐐瑰嚮鐣欒█</span></h3>
                 <dl class="commentListItem" id="contents">
                                   </dl>
                       </div>
-        <!--提交留言表单 end-->
+        <!--鎻愪氦鐣欒█琛ㄥ崟 end-->
 
       </div>
     </div>
@@ -110,34 +110,34 @@
 </div>
 <div class="myMeArea showProInfo" id="addGuestBook">
   <div class="myMe">
-  <div class="myMeTit"><em class="back">返回</em><h3>发布留言</h3><em class="enter" id="queryMySubmit">确定</em></div>
+  <div class="myMeTit"><em class="back">杩斿洖</em><h3>鍙戝竷鐣欒█</h3><em class="enter" id="queryMySubmit">纭畾</em></div>
   <div class="myMeCon">
     <form action="/action/wap_guest_book.php?username=muying05&channel_id=14669353" method="post" name="myform" id="myform">
     <ul class="inputMyMe">
           <li>
-        <input type="text" class="tInputObj" name="title" maxlength="60" id="title" placeholder="留言标题" />
+        <input type="text" class="tInputObj" name="title" maxlength="60" id="title" placeholder="鐣欒█鏍囬" />
         <p class="hint" id="titleError"></p>
       </li>
       <li>
-        <input type="text" class="tInputObj" name="name" maxlength="20" id="name" placeholder="您的姓名" />
+        <input type="text" class="tInputObj" name="name" maxlength="20" id="name" placeholder="鎮ㄧ殑濮撳悕" />
         <p class="hint" id="nameError"></p>
       </li>
       <li>
-        <input type="text" class="tInputObj" name="tel" maxlength="20" id="tel" placeholder="电话或手机" />
+        <input type="text" class="tInputObj" name="tel" maxlength="20" id="tel" placeholder="鐢佃瘽鎴栨墜鏈�" />
         <p class="hint" id="telError"></p>
       </li>
       <li>
-        <textarea class="tInputObj" name="content" maxlength="250"  id="con" placeholder="留言内容"></textarea>
+        <textarea class="tInputObj" name="content" maxlength="250"  id="con" placeholder="鐣欒█鍐呭"></textarea>
         <p class="hint" id="conError"></p>
       </li>
             <li class="li-yzm q">
-        <input type="text" class="tInputObj" name="yzm" maxlength="4" id="yzm" placeholder="验证码" />
+        <input type="text" class="tInputObj" name="yzm" maxlength="4" id="yzm" placeholder="楠岃瘉鐮�" />
         <span class="yzm"><img name="vcodesrc" id="vcodesrc" src="../include/captcha/captcha.php"></span>
         <p class="hint" id="yzmError"></p>
       </li>
       <li class="li-b">
         <input type="hidden" name="add_tag" id="add_tag" value="0" />
-        <input class="eButObj" type="button" id="mySubmit" value="提交" />
+        <input class="eButObj" type="button" id="mySubmit" value="鎻愪氦" />
       </li>
     </ul>
     </form>
@@ -146,23 +146,23 @@
 </div>
 <div class="myMeArea showProInfo" id="reGuestBook">
   <div class="myMe">
-  <div class="myMeTit"><em class="back">返回</em><h3>回复留言</h3><em class="enter" id="queryReSubmit">确定</em></div>
+  <div class="myMeTit"><em class="back">杩斿洖</em><h3>鍥炲鐣欒█</h3><em class="enter" id="queryReSubmit">纭畾</em></div>
   <div class="myMeCon">
     <form action="/action/wap_guest_book.php?username=muying05&channel_id=14669353" method="post" name="myReForm" id="myReForm">
     <ul class="inputMyMe">
       <li>
-        <textarea class="tInputObj" name="re_con" maxlength="250"  id="re_con" placeholder="留言内容"></textarea>
+        <textarea class="tInputObj" name="re_con" maxlength="250"  id="re_con" placeholder="鐣欒█鍐呭"></textarea>
         <p class="hint" id="reConError"></p>
       </li>
       <li class="li-yzm q">
-        <input type="text" class="tInputObj" name="re_yzm" maxlength="4" id="re_yzm" placeholder="验证码" />
+        <input type="text" class="tInputObj" name="re_yzm" maxlength="4" id="re_yzm" placeholder="楠岃瘉鐮�" />
         <span class="yzm"><img name="re_vcodesrc" id="reVcodesrc" src="../include/captcha/captcha.php"></span>
         <p class="hint" id="reYzmError"></p>
       </li>
       <li class="li-b">
         <input type="hidden" name="re_tag" id="re_tag" value="0" />
         <input type="hidden" name="re_id" id="re_id" value="0" />
-        <input class="eButObj" type="button" id="myReSubmit" value="回复" />
+        <input class="eButObj" type="button" id="myReSubmit" value="鍥炲" />
       </li>
       <li class="li-b" style="display:none;">
         <input type="text">
@@ -175,7 +175,8 @@
  <center></center>
 <script type="text/javascript" src="../js/wap/self_edit.js?ver1"></script>
 
-      <!--文章详细页不显示底部-->
+
+      <!--鏂囩珷璇︾粏椤典笉鏄剧ず搴曢儴-->
         <div class="toolMenuBg" id="tool_menu_bg" ></div>
     <div class="toolMenu" id="tool_menu" >
       <menu class="toolBut q">
@@ -187,7 +188,7 @@
               <!-- <b class="icon" id="icon_12730651">
                 <img src="/images/wap/toolHome_icon.png" />
               </b> -->
-              <strong>首页</strong>
+              <strong>棣栭〉</strong>
                           </a>
           </li>
                 <li id="toolTel" sorts="12" style=" width:20%;">
@@ -198,7 +199,7 @@
               <!-- <b class="icon" id="icon_12730621">
                 <img src="/images/wap/toolTel_icon.png" />
               </b> -->
-              <strong>电话</strong>
+              <strong>鐢佃瘽</strong>
                           </a>
           </li>
                 <li id="toolTelMessage" sorts="11" style="display: none; width:20%;">
@@ -209,7 +210,7 @@
               <!-- <b class="icon" id="icon_12730631">
                 <img src="/images/wap/toolMessage_icon.png" />
               </b> -->
-              <strong>信息</strong>
+              <strong>淇℃伅</strong>
                           </a>
           </li>
                 <li id="toolQQ" sorts="10" style="display: none; width:20%;">
@@ -231,7 +232,7 @@
               <!-- <b class="icon" id="icon_12730671">
                 <img src="/images/wap/toolGuestbook_icon.png" />
               </b> -->
-              <strong>留言</strong>
+              <strong>鐣欒█</strong>
                           </a>
           </li>
                 <li id="toolMap" sorts="8" style=" width:20%;">
@@ -242,7 +243,7 @@
               <!-- <b class="icon" id="icon_12730641">
                 <img src="/images/wap/toolMap_icon.png" />
               </b> -->
-              <strong>位置</strong>
+              <strong>浣嶇疆</strong>
                           </a>
           </li>
                 <li id="toolShoppingCar" sorts="7" style="display: none; width:20%;">
@@ -253,7 +254,7 @@
               <!-- <b class="icon" id="icon_12730681">
                 <img src="/images/wap/toolShoppingCar_icon.png" />
               </b> -->
-              <strong>购物</strong>
+              <strong>璐墿</strong>
                           </a>
           </li>
                 <li id="toolMember" sorts="6" style=" width:20%;">
@@ -264,7 +265,7 @@
               <!-- <b class="icon" id="icon_12730661">
                 <img src="/images/wap/toolMember_icon.png" />
               </b> -->
-              <strong>会员</strong>
+              <strong>浼氬憳</strong>
                           </a>
           </li>
                 <li id="tooltoolDistributionXiaoD" sorts="5" style="display: none; width:20%;">
@@ -275,7 +276,7 @@
               <!-- <b class="icon" id="icon_22909761">
                 <img src="/images/wap/tooltoolDistributionXiaoD.png" />
               </b> -->
-              <strong>分销小店</strong>
+              <strong>鍒嗛攢灏忓簵</strong>
                           </a>
           </li>
                 <li id="toolVoiceSearch" sorts="4" style="display: none; width:20%;">
@@ -286,7 +287,7 @@
               <!-- <b class="icon" id="icon_22909751">
                 <img src="/images/wap/toolVoiceSearch.png" />
               </b> -->
-              <strong>语音</strong>
+              <strong>璇煶</strong>
                           </a>
           </li>
                 <li id="toolProClass" sorts="3" style="display: none; width:20%;">
@@ -297,13 +298,13 @@
               <!-- <b class="icon" id="icon_22909741">
                 <img src="/images/wap/toolProductClass.png" />
               </b> -->
-              <strong>分类</strong>
+              <strong>鍒嗙被</strong>
                           </a>
           </li>
                   </menu>
     </div>
         <span class="backTop" id="back_top"><em></em></span>
-  <!--微名片详细页不显示导航-->
+  <!--寰悕鐗囪缁嗛〉涓嶆樉绀哄鑸�-->
     <div class="fixedNavBut" id="fixed_nav_but" style="display:block;">
     <div class="navMoreBut_2">
       <i class="i-1"></i>
@@ -321,9 +322,9 @@
       <ul>
           <li >
           <a id="foot_index_link"  href="../wap_muying05.html?showWelcome=1"><span>&#39318;&#39029;</span></a></li>
-                                                <li ><a   href="../muying05/wap_doc/14669351_0_0_0.html"><span>公司新闻</span></a></li>
-                          <li ><a   href="../muying05/wap_pro/14669350_0_0_0.html"><span>公司产品</span></a></li>
-                                                         <li ><a   href="../muying05/wap_item/list_14669349_0.html"><span>关于我们</span></a></li>
+                                                <li ><a   href="../muying05/wap_doc/14669351_0_0_0.html"><span>鍏徃鏂伴椈</span></a></li>
+                          <li ><a   href="../muying05/wap_pro/14669350_0_0_0.html"><span>鍏徃浜у搧</span></a></li>
+                                                         <li ><a   href="../muying05/wap_item/list_14669349_0.html"><span>鍏充簬鎴戜滑</span></a></li>
                                   </ul>
     </div>
          <div class="Nzz" id="Nzz"></div>
@@ -339,7 +340,7 @@ $(".baiduEditorTxtModule img").each(function(){
     $(this).css({'width':'100%','height':'auto'});
 }
 });
-//判断是否为微信
+//鍒ゆ柇鏄惁涓哄井淇�
 function is_weixn(){
   var ua = navigator.userAgent.toLowerCase();
   if(ua.match(/MicroMessenger/i)=="micromessenger") {
@@ -406,4 +407,4 @@ uParse('.baiduEditorTxtModule', {
  </script>
  <script type="text/javascript" src="../js/wap/guest_book.js"></script>
 </body>
-</html>
+</html>
